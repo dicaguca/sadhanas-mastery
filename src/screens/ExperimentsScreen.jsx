@@ -1,6 +1,6 @@
 import React from "react";
 import { SectionCard } from "../components/SectionCard";
-import { useMasteryData } from "../store/useMasteryData";
+import { useMasteryData } from "../store/useMasteryData.jsx";
 import {
   formatDateLabel,
   getInterventionById,

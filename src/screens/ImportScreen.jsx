@@ -1,6 +1,6 @@
 import React from "react";
 import { SectionCard } from "../components/SectionCard";
-import { useMasteryActions } from "../store/useMasteryData";
+import { useMasteryActions } from "../store/useMasteryData.jsx";
 import { FMP_IMPORT_PLAN } from "../lib/fmpImportPlan";
 
 export function ImportScreen() {

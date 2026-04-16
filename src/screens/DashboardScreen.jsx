@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { SectionCard } from "../components/SectionCard";
-import { useMasteryData } from "../store/useMasteryData";
+import { useMasteryData } from "../store/useMasteryData.jsx";
 import {
   formatDateLabel,
   getDashboardSummary,

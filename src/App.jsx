@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { appRoutes } from "./routes";
 import { AppShell } from "./components/AppShell";
-import { MasteryDataProvider } from "./store/useMasteryData";
+import { MasteryDataProvider } from "./store/useMasteryData.jsx";
 
 export default function App() {
   return (

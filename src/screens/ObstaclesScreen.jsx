@@ -1,6 +1,6 @@
 import React from "react";
 import { SectionCard } from "../components/SectionCard";
-import { useMasteryActions, useMasteryData } from "../store/useMasteryData";
+import { useMasteryActions, useMasteryData } from "../store/useMasteryData.jsx";
 
 export function ObstaclesScreen() {
   const state = useMasteryData();
